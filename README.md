@@ -12,7 +12,7 @@ O projeto está finalizado e as possíveis novas atualizações serão voltadas 
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-* Você pode acessar o projeto pelo online clicando [aqui]
+* Você pode acessar o projeto online clicando [aqui](https://encurta-links-ten.vercel.app/)
 
 * Você precisa do NodeJs mais recente para rodar localmente.
 

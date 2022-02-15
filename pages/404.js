@@ -2,7 +2,7 @@
 // Pagina 404 Customizada
 
 import Link from 'next/link'
-import Menu from '../pages/components/Menu'
+import Menu from '../components/Menu'
 
 export default function FourOhFour() {
   return(

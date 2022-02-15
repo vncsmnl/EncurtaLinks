@@ -3,8 +3,8 @@
 
 import { useState } from 'react'
 import { FiLink } from 'react-icons/fi'
-import Menu from './components/Menu'
-import Modal from './components/Modal';
+import Menu from '../components/Menu'
+import Modal from '../components/Modal';
 
 import api from '../services/api';
 import { saveLink } from '../services/storeLinks';

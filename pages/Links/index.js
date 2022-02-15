@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { FiLink, FiArrowLeft, FiTrash} from 'react-icons/fi'
 import Link from 'next/link'
-import Modal from '../../pages/components/Modal';
+import Modal from '../../components/Modal';
 
 import { getLinksSave, deleteLink} from '../../services/storeLinks';
 

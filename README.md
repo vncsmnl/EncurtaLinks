@@ -4,6 +4,8 @@
 
 > Projeto finalizado
 
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
+
 ### Ajustes e melhorias
 
 O projeto está finalizado e as possíveis novas atualizações serão voltadas para correção de bugfixes!
@@ -12,9 +14,9 @@ O projeto está finalizado e as possíveis novas atualizações serão voltadas 
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-* Você pode acessar o projeto online clicando [aqui](https://encurta-links-ten.vercel.app/)
+- Você pode acessar o projeto online clicando [aqui](https://encurta-links-ten.vercel.app/)
 
-* Você precisa do NodeJs mais recente para rodar localmente.
+- Você precisa do NodeJs mais recente para rodar localmente.
 
 ## 💾 Clonando o Repositório
 
@@ -28,16 +30,15 @@ git clone https://github.com/vncsmnl/EncurtaLinks.git
 
 Para instalar o EncurtaLinks, siga estas etapas:
 
-
 ```bash
 npm install
 ```
+
 ou
 
 ```bash
 yarn add [package]
 ```
-
 
 ## ☕ Usando o EncurtaLinks
 
@@ -46,11 +47,12 @@ Para usar o EncurtaLinks, siga estas etapas:
 ```bash
 npm run dev
 ```
+
 ou
+
 ```bash
 yarn dev
 ```
-
 
 ## 🤝 Colaboradores
 
@@ -69,6 +71,8 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
+<a href="https://instagram.com/vncsmnl"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a> <a href="https://twitter.com/vncsmnl"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"></a>
+<a href="https://br.linkedin.com/in/vncsmnl"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
 ## 📝 Licença
 

@@ -9,7 +9,7 @@ import Modal from '../components/Modal';
 import api from '../services/api';
 import { saveLink } from '../services/storeLinks';
 
-
+import Image from 'next/image';
 
 export default function Home() {
   const [link, setLink] = useState('');
@@ -41,7 +41,7 @@ export default function Home() {
     <div className="container-home">
 
       <div className="logo">
-        <img src="../home.svg" alt="home image" />
+        <Image src="/home.svg" width='1000' height='750' alt="home image" />
       </div>
 
       <div className="area-input">
@@ -65,7 +65,7 @@ export default function Home() {
         />
       )}
 
-      <footer className="footer"><img src="../footer.gif" width={150} alt="footer" /></footer>
+      <footer className="footer"><Image src="/footer.gif" width="180" height='50' alt="footer" /></footer>
     </div>
   )
 }

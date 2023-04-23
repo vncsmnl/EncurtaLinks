@@ -11,15 +11,15 @@ import { saveLink } from '../services/storeLinks';
 
 
 
-export default function Home(){
+export default function Home() {
   const [link, setLink] = useState('');
   const [showModal, setShowModal] = useState(false);
   const [data, setData] = useState({});
 
 
 
-  async function handleShortLink(){
-    try{
+  async function handleShortLink() {
+    try {
       const response = await api.post('/shorten', {
         long_url: link
       })
@@ -31,32 +31,32 @@ export default function Home(){
 
       setLink('');
 
-    }catch{
+    } catch {
       alert('URL Inválida')
       setLink('');
     }
   }
 
-  return(
+  return (
     <div className="container-home">
 
       <div className="logo">
-        <img src="/links.svg" alt="imagem" />
+        <img src="../home.svg" alt="home image" />
       </div>
 
       <div className="area-input">
         <div>
-          <FiLink size={24} color='#FFF'/>
+          <FiLink size={24} color='#FFF' />
           <input
-          placeholder='Cole seu link aqui...'
-          value={link}
-          onChange={(event) => setLink(event.target.value)}
+            placeholder='Cole seu link aqui...'
+            value={link}
+            onChange={(event) => setLink(event.target.value)}
           />
         </div>
         <button onClick={handleShortLink}>Gerar Link!</button>
       </div>
 
-      <Menu/>
+      <Menu />
 
       {showModal && (
         <Modal
@@ -65,7 +65,7 @@ export default function Home(){
         />
       )}
 
-    <footer className="footer">Feito por Vinícius Manoel 🫀</footer>
+      <footer className="footer"><img src="../footer.gif" width={150} alt="footer" /></footer>
     </div>
   )
 }

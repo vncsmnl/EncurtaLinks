@@ -36,7 +36,7 @@ npm install
 or
 
 ```bash
-yarn install
+pnpm install
 ```
 
 ## ☕ Using ShortenLinks
@@ -49,7 +49,7 @@ npm run dev
 ou
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 ## 🤝 Contributors

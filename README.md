@@ -22,7 +22,7 @@ Before you start, make sure you meet the following requirements:
 Make sure you have Git installed on your machine
 
 ```bash
-git clone https://github.com/vncsmnl/EncurtaLinks.git
+git clone https://github.com/vncsmnl/shortlinks.git
 ```
 
 ## 🚀 Installing ShortenLinks

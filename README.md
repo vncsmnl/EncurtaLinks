@@ -1,6 +1,6 @@
 # ShortenLinks 🔗
 
-![Project Image](/public/Animation.gif "Title")
+![Project Image](/public/1.png "Title")
 
 > Project completed
 

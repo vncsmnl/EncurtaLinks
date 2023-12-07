@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 // Pagina Home
-
+import Head from 'next/head'
 import { useState } from 'react'
 import { FiLink } from 'react-icons/fi'
 import Menu from '../components/Menu'
@@ -36,34 +36,35 @@ export default function Home() {
   }
 
   return (
-    <div className="container-home">
+    <><Head>
+      <title>ShortenLinks</title>
+      <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>🔗</text></svg>"></link>
+    </Head>
+      <div className="container-home">
 
-      <div className="logo">
-        <img src="/home.svg" alt="home image" />
-      </div>
-
-      <div className="area-input">
-        <div>
-          <FiLink size={24} color='#FFF' />
-          <input
-            placeholder='Cole seu link aqui...'
-            value={link}
-            onChange={(event) => setLink(event.target.value)}
-          />
+        <div className="logo">
+          <img src="/home.svg" alt="home image" />
         </div>
-        <button onClick={handleShortLink}>Gerar Link!</button>
-      </div>
 
-      <Menu />
+        <div className="area-input">
+          <div>
+            <FiLink size={24} color='#FFF' />
+            <input
+              placeholder='Cole seu link aqui...'
+              value={link}
+              onChange={(event) => setLink(event.target.value)} />
+          </div>
+          <button onClick={handleShortLink}>Gerar Link!</button>
+        </div>
 
-      {showModal && (
-        <Modal
-          closeModal={() => setShowModal(false)}
-          content={data}
-        />
-      )}
+        <></><Menu />
+        {showModal && (
+          <Modal
+            closeModal={() => setShowModal(false)}
+            content={data} />
+        )}
 
-      <footer className="footer"><img src="/footer.gif" alt="footer" width={150} /></footer>
-    </div>
+        <footer className="footer"><img src="/footer.gif" alt="footer" width={150} /></footer>
+      </div></>
   )
 }

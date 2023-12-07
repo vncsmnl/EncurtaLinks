@@ -39,7 +39,7 @@ export default function Home() {
     <div className="container-home">
 
       <div className="logo">
-        <img src="/home.svg" alt="home image" />
+        <img src="../public/home.svg" alt="home image" />
       </div>
 
       <div className="area-input">
@@ -63,7 +63,7 @@ export default function Home() {
         />
       )}
 
-      <footer className="footer"><img src="/footer.gif" width={150} alt="footer" /></footer>
+      <footer className="footer"><img src="../public/footer.gif" alt="footer" width={150} /></footer>
     </div>
   )
 }
